@@ -38,15 +38,19 @@ const CoursesSearch = React.createClass({
 			<div className="list-group">
 				{this.state.filtered_list.map((course)=>(
 					<a href="#" key={course.id} className="list-group-item">
-						<h4 className="list-group-item-heading"> {course.title} </h4>
-						<p className="list-group-item-text"> {course.author} </p>
+						<h3 className="list-group-item-heading"> {course.title} </h3>
+						<h4 className="list-group-item-text"> {course.author} </h4>
+						<p className="list-group-item-publishing-date"> {course.duration} </p>
+						<div className="textContent">
+						<div className="list-group-item-image"><img src={course.image} /> </div>
+						<p className="list-group-item-desc"> {course.description} </p>
+					</div>
 					</a>
 				))}
 			</div>
 		</div>
 	}
 })
-
 
 const App = React.createClass({
 
