@@ -12,3 +12,8 @@
 	margin-bottom: 5%;
 	margin-top: 2%;
 }
+
+.list-group-item-publishing-date{
+	float: right;
+	margin-right: 5%;
+}
