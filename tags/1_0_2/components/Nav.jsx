@@ -26,13 +26,10 @@ const Tab = (props) => {
 
 const Nav = (props) => {
 	return <nav className="navbar navbar-default">
-	  <div className="container-fluid">
-	    <div className="navbar-header">
-	      <a className="navbar-brand" href="#">Wyszukiwarka</a>
-	    </div> 
 
     	<TabsNav className="nav navbar-nav navbar-left" onChange={props.onChange} activeTab={props.activeTab}>
-    		<Tab name="Posty"></Tab>
+            <Tab name="Wyszukiwarka"></Tab>
+			<Tab name="Posty"></Tab>
     		<Tab name="Przeczytane"></Tab>
     	</TabsNav>
 
@@ -45,6 +42,5 @@ const Nav = (props) => {
 	    		</a>
     		</Tab>
     	</TabsNav>
-      </div>
   	</nav>
 }

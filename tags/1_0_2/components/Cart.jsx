@@ -24,7 +24,6 @@ const ShoppingCartList = ({list}) =>(
 		<div>
 			{list.map((data) => <Course data={data} key={data.id} Details={CartDetails}>
 				<div className="btn-group pull-right">
-					<Button label="Szczegóły postu" />
 					<Button label="Przenieś do przeczytanych" icon="star"/>
 				</div>
 				<div><b>Autor: </b> {data.author} <br/> <b>Czas trwania: </b> {data.duration} </div>

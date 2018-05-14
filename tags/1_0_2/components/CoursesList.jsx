@@ -8,7 +8,7 @@ const CoursesList = ({list}) => (
 
 				  		{/* Course Actions */}
 						<div className="btn-group pull-right">
-							<Button label="Szczególy postu" />
+
 							<FavButton active={AppState.state.favourites_map[data.id]} 
 								onActivate={()=>actions.addFavourite(data.id)} 
 								onDeactivate={()=>actions.removeFavourite(data.id)}  />
