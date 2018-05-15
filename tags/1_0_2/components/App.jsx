@@ -41,8 +41,8 @@ const CoursesSearch = React.createClass({
 						<h3 className="list-group-item-heading"> {course.title} </h3>
 						<h4 className="list-group-item-text"> {course.author} </h4>
 						<p className="list-group-item-publishing-date"> {course.duration} </p>
-						<div className="textContent">
-						<div className="list-group-item-image"><img src={course.image} /> </div>
+						<div className="textContent clearfix">
+						<div className="list-group-item-image pull-left"><img src={course.image} /> </div>
 						<p className="list-group-item-desc"> {course.description} </p>
 					</div>
 					</a>

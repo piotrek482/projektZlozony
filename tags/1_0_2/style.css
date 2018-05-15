@@ -16,4 +16,18 @@
 .list-group-item-publishing-date{
 	float: right;
 	margin-right: 5%;
+
+}
+
+.list-group-item-image.pull-left {
+	margin-right: 2rem;
+}
+
+.list-group-item-desc {
+	margin-top: 3rem;
+}
+
+.clearfix {
+	clear: both;
+	overflow: hidden;
 }
